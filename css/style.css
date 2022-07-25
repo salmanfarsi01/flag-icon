@@ -1,0 +1,104 @@
+*{
+	padding: 0px;
+    margin: 0px;
+}
+body{
+	font-family: 'poppins',sans-serif;
+	font-size:14px ;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto', sans-serif;
+
+}
+.green{
+	width: 600px;
+	height: 300px;
+	background-color: darkgreen;
+}
+.red{
+	width: 180px;
+	height: 180px;
+	border-radius: 100%;
+	background-color: red;
+	position: absolute;
+	top: 32%;
+	left: 10%;
+}
+.green .fb{
+width: 160px;
+position: fixed;
+top: 60%;
+right: -115px;
+transition: 1s;
+}
+.green .fb:hover{
+right: -2px;
+cursor: pointer;
+}
+
+.green .twitter{
+	width: 160px;
+position: fixed;
+top: 70%;
+right: -115px;
+transition: 1s;
+}
+.green .twitter:hover{
+right: -2px;
+cursor: pointer;
+}
+.green .insta{
+	width: 160px;
+position: fixed;
+top: 80%;
+right: -115px;
+transition: 1s;
+}
+.green .insta:hover{
+right: -2px;
+cursor: pointer;
+}
+.green .whatsapp{
+	width: 160px;
+position: fixed;
+top: 90%;
+right: -115px;
+transition: 1s;
+}
+.green .whatsapp:hover{
+right: -2px;
+cursor: pointer;
+}
+.social-icons{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 0px 0px;	
+}
+.list-group {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 60px 0px;
+
+}
+
+.list-group li {
+    list-style: none;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 100%;
+    background: yellow;
+    font-size: 30px;
+    margin: 0px 15px;
+    color: green;
+    border: 2px solid; green;
+}
+
+.list-group li:hover {
+    background: red;
+    color: white;
+}
